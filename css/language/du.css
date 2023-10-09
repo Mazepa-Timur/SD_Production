@@ -1,0 +1,39 @@
+#projects h2 {
+  width: 510px;
+}
+.servicesFragment .serviceButton-du {
+  margin-top: 48px;
+  padding-right: 100px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.servicesFragment .serviceButton-du:hover {
+  color: #7d3bd1;
+}
+.servicesFragment .serviceButton-du::after {
+  content: url('../img/left.svg');
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 8px;
+  margin-top: -20px;
+  margin-left: 145px;
+  transition: 200ms;
+}
+.servicesFragment .serviceButton-du:hover::after {
+  content: url('../img/leftPurple.svg');
+  margin-left: 155px;
+}
+
+
+.next-du::after {
+    content: url('../../img/right1.svg');
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 60px;
+    display: block;
+    width: 20px;
+    height: 20px;
+  }

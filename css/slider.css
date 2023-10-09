@@ -1,0 +1,177 @@
+.slider-name {
+  margin-bottom: 140px;
+  height: min-content;
+  width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-name div {
+  display: flex;
+  gap: 44px;
+}
+.swiper-button-prev-custom {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #595959;
+  border-radius: 1000px;
+}
+.swiper-button-next-custom {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #595959;
+  border-radius: 1000px;
+}
+.swiper-button-prev-custom:hover {
+  border: 2px solid #fcfcfc;
+}
+.swiper-button-next-custom:hover {
+  border: 2px solid #fcfcfc;
+}
+.swiper-button-prev-custom::after {
+  position: relative;
+  padding-top: 3px;
+  padding-right: 3px;
+  width: 24px;
+  height: 21px;
+  font-family: swiper-icons;
+  content: 'prev';
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.swiper-button-next-custom::after {
+  position: relative;
+  padding-top: 3px;
+  padding-left: 3px;
+  width: 24px;
+  height: 21px;
+  font-family: swiper-icons;
+  content: 'next';
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+#ourTeam {
+  margin-bottom: 160px;
+  width: 1180px;
+  background: #000;
+}
+#ourTeam h2 {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.swiper .imageBW {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.swiper .imageC {
+  width: 0;
+  height: 0;
+}
+.mySwiper * {
+  user-select: none;
+}
+.mySwiper {
+  margin-left: -40px;
+  width: 936px;
+  z-index: 0;
+}
+.prevSlider {
+  width: 234px;
+  height: 300px;
+}
+.contend {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.mySwiperBox {
+  margin-top: -25px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -100px;
+  margin-left: 755px;
+  width: 500px;
+  height: 500px;
+}
+.swiperBox {
+  margin-top: -25px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 755px;
+  width: 430px;
+  height: 320px;
+  display: flex;
+  border-radius: 32px;
+  background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+}
+.mySwiperBox .imageBW {
+  width: 0;
+  height: 0;
+}
+.mySwiperBox .imageC {
+  z-index: 100;
+  width: 343px;
+  height: 343px;
+  margin-top: 30px;
+  margin-left: 117px;
+}
+.mySwiperBox .contend {
+  margin-left: 30px;
+  display: block;
+}
+.mySwiperBox .contend .slide-name {
+  margin-top: 70px;
+  width: 156px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+}
+.mySwiperBox .contend .slide-description {
+  margin-top: 25px;
+  width: 156px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+.mySwiperBox .contend .linkTeams {
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  margin-top: 115px;
+  margin-left: 0px;
+}
+.mySwiperBox .swiper-slide .contend {
+  transition: 300ms;
+  opacity: 0;
+}
+.mySwiperBox .swiper-slide img {
+  transition: 300ms;
+  opacity: 0;
+}
+.mySwiperBox .swiper-slide-active .contend {
+  transition: 300ms;
+  opacity: 1;
+}
+.mySwiperBox .swiper-slide-active img {
+  transition: 300ms;
+  opacity: 1; 
+}

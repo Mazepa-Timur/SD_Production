@@ -1,0 +1,98 @@
+header {
+  margin-top: 40px;
+  padding: 10px 120px;
+  height: 100px;
+  width: 940px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 20px;
+  justify-content: space-between;
+
+  background-color: #181818;
+}
+.navigator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 48px;
+
+  font-size: 16px;
+  list-style: none;
+}
+.navigator li {
+  text-align: center;
+}
+.navigator li:hover {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+.langChange {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -110px;
+  padding: 12px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+
+  border-radius: 10px;
+  border: 1px solid #595959;
+  background: #000;
+}
+.langHide li:not(.languageActive){
+  display: none;
+}
+.langHide .languageActive::after{
+  transform: rotate(180deg);
+  margin-top: -1px;
+}
+.langShow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.langShow a:hover {
+  color: #7d3bd1;
+}
+.langChange a,
+.languageActive {
+  display: block;
+  padding-right: 34px;
+  padding-top: 4px;
+  width: 26px;
+  height: 24px;
+  text-align: center;
+  align-items: center;
+
+  color: #FCFCFC;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.langHide .languageActive::after {
+  content: url('../img/Arrow.svg');
+  position: absolute;
+  margin-top: -3px;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  color: red;
+}
+.langShow .languageActive::after {
+  content: url('../img/Arrow.svg');
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  color: red;
+}
