@@ -284,3 +284,250 @@ footer {
   font-weight: 400;
   line-height: 20px;
 }
+
+.adoutUsText {
+  display: block;
+}
+.adoutUsTextMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #contentUs {
+    display: block;
+    padding-top: 40vw;
+    padding-bottom: 40vw;
+  }
+  .adoutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .adoutUs h2 {
+    width: 90vw;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .adoutUs p {
+    width: 64vw;
+    color: #cfcfcf;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5vw;
+    letter-spacing: -0.4px;
+  }
+  .adoutUsText {
+    display: none;
+  }
+  .adoutUsTextMobile {
+    display: block;
+  }
+  .contentUsBtn {
+    margin-top: 10vw;
+    display: flex;
+    width: 60vw;
+    height: 12vw;
+    padding: 1vw 2vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  
+    border-radius: 10000px;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+  }
+
+  .group p {
+    font-size: 3vw;
+    padding: 1vw 2vw;
+    line-height: 4vw;
+  }
+  .group img {
+    margin-left: -5vw;
+    margin-top: -4vw;
+    width: 5vw;
+    height: 5vw;
+  }
+  .peopleBlue {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 55vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleBlue;
+  }
+  .peopleBlue p {
+    background: #1570ef;
+  }
+  @keyframes peopleBlue {
+    0% {
+      margin-top: -101vw;
+      margin-left: 55vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 56vw;
+    }
+  }
+  .peopleRed {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 70vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleRed;
+  }
+  .peopleRed p {
+    background: #d93036;
+  }
+  @keyframes peopleRed {
+    0% {
+      margin-top: -84vw;
+      margin-left: 70vw;
+    }
+    100% {
+      margin-top: -86vw;
+      margin-left: 71vw;
+    }
+  }
+  .peopleGreen {
+    position: absolute;
+    margin-top: -100vw;
+    margin-left: 30vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleGreen;
+  }
+  .peopleGreen p {
+    background: #039855;
+    color: #fff;
+  }
+  @keyframes peopleGreen {
+    0% {
+      margin-top: -101vw;
+      margin-left: 31vw;
+    }
+    100% {
+      margin-top: -99vw;
+      margin-left: 30vw;
+    }
+  }
+  
+  .peoplePink {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 70vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peoplePink;
+  }
+  .peoplePink p {
+    background: #dd2590;
+  }
+  @keyframes peoplePink {
+    0% {
+      margin-top: 9vw;
+      margin-left: 71vw;
+    }
+    100% {
+      margin-top: 11vw;
+      margin-left: 69vw;
+    }
+  }
+  .peopleBlueLight {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 30vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
+  }
+  .peopleBlueLight p {
+    background: #7cd4fd;
+    color: #000000;
+  }
+  @keyframes peopleBlueLight {
+    0% {
+      margin-top: 19vw;
+      margin-left: 30vw;
+    }
+    100% {
+      margin-top: 22vw;
+      margin-left: 29vw;
+    }
+  }
+  .peopleOrange {
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 50vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleOrange;
+  }
+  .peopleOrange p {
+    background: #dc6803;
+  }
+  @keyframes peopleOrange {
+    0% {
+      margin-top: 20vw;
+      margin-left: 50vw;
+    }
+    100% {
+      margin-top: 19vw;
+      margin-left: 49vw;
+    }
+  }
+  
+  .peopleLightPink {
+    position: absolute;
+    margin-top: -85vw;
+    margin-left: 10vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
+  }
+  .peopleLightPink p {
+    background: #BF0099;
+  }
+  @keyframes peopleLightPink {
+    0% {
+      margin-top: -84vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: -85vw;
+      margin-left: 9vw;
+    }
+  }
+  
+  .peopleYellow {
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 10vw;
+  
+    animation: 1s ease-in-out 1s infinite alternate peopleYellow;
+  }
+  .peopleYellow p {
+    background: #FCFF00;
+    color: #020202;
+  }
+  @keyframes peopleYellow {
+    0% {
+      margin-top: 10vw;
+      margin-left: 10vw;
+    }
+    100% {
+      margin-top: 9vw;
+      margin-left: 8vw;
+    }
+  }
+  footer .navigator{
+    display: none;
+  }
+}

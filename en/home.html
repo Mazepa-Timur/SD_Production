@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer-sd.css" />
@@ -19,7 +19,7 @@
     <header>
       <div>
         <a href="../en/home.html">
-          <img src="../img/logo.svg" alt="SD" />
+          <img class="logo" src="../img/logo.svg" alt="SD" />
         </a>
       </div>
       <ul class="navigator">
@@ -35,9 +35,26 @@
           <li><a href="">RU</a></li>
         </ul>
       </div>
+      <div class="HamburgerMenu hide">
+        <img
+          class="HamburgerMenuButton"
+          src="../img/HamburgerMenu.svg"
+          alt=""
+        />
+        <div class="HamburgerMenuNav">
+          <img class="HamburgerMenuButtonClose" src="../img/closeAction.svg" alt="" />
+          <ul>
+            <li><a href="../en/home.html#">Hero</a></li>
+            <li><a href="../en/home.html#projects">Projects</a></li>
+            <li><a href="../en/home.html#services">Services</a></li>
+            <li><a href="../en/home.html#ourTeam">Team</a></li>
+            <li><a href="../en/home.html#contentUs">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero" class="hero">
         <img
           class="heroBackground imageHero"
           src="../img/Group 1000001807.png"
@@ -57,7 +74,12 @@
       </section>
 
       <section id="projects">
-        <h2>Check our some of <span class="borderText">our projects</span></h2>
+        <h2 class="projectsH2">
+          Check our some of <span class="borderText">our projects</span>
+        </h2>
+        <h2 class="projectsH2Mobile">
+          Check of our <span class="borderText">projects</span>
+        </h2>
         <div class="projectsCards">
           <div class="projectsFragment1">
             <div class="projectsFragmentInfo1">
@@ -117,6 +139,52 @@
             </div>
           </div>
         </div>
+        <div class="projectsCardsMobile">
+          <div class="projectsFragmentMobile1">
+            <h4>Online Shop</h4>
+            <h3>Organic</h3>
+            <p>Online store with organic fruits, vegetables and berries.</p>
+            <div class="projectImgBox">
+              <div class="projectImageMobile1-1"></div>
+              <div class="projectImageMobile1-2"></div>
+            </div>
+            <a class="buttonProjectMobile1" href="./organicShop.html">View</a>
+          </div>
+          <div class="projectsFragmentMobile2">
+            <h4>Business website</h4>
+            <h3>WhiteCollor</h3>
+            <p>Adaptive Strategic Agile Management.</p>
+            <div class="projectImgBox">
+              <div class="projectImageMobile2-1"></div>
+              <div class="projectImageMobile2-2"></div>
+            </div>
+            <a class="buttonProjectMobile2" href="./whiteCollar.html">View</a>
+          </div>
+          <div class="projectsFragmentMobile3 hideProject">
+            <h4>Landing page</h4>
+            <h3>Brilini Studio</h3>
+            <p>Modern austere interior design studio.</p>
+            <div class="projectImgBox">
+              <div class="projectImageMobile3-1"></div>
+              <div class="projectImageMobile3-2"></div>
+            </div>
+            <a class="buttonProjectMobile3" href="./briliniStudio.html">View</a>
+          </div>
+          <div class="projectsFragmentMobile4 hideProject">
+            <h4>Mobile App</h4>
+            <h3>Abi</h3>
+            <p>
+              Mobile application for creating presentations with ready-made
+              templates
+            </p>
+            <div class="projectImgBox">
+              <div class="projectImageMobile4-1"></div>
+              <div class="projectImageMobile4-2"></div>
+            </div>
+            <a class="buttonProjectMobile4" href="./abi.html">View</a>
+          </div>
+        </div>
+        <p class="projectButton">Show more</p>
       </section>
 
       <section id="services">
@@ -124,7 +192,7 @@
         <div class="servicesCards">
           <a href="#contentUs">
             <div class="servicesFragment">
-              <div>
+              <div class="services">
                 <h3 class="serviceHeader1">Design</h3>
                 <ul>
                   <li>Motion Design</li>
@@ -133,6 +201,7 @@
                   <li>3D models</li>
                   <li>Advertising Banners</li>
                 </ul>
+                <p class="serviceButtonMobile">Order service</p>
               </div>
               <p class="serviceButton">Order service</p>
             </div>
@@ -148,6 +217,7 @@
                   <li>Mobile App</li>
                   <li>Redesign yor Website</li>
                 </ul>
+                <p class="serviceButtonMobile">Order service</p>
               </div>
               <p class="serviceButton">Order service</p>
             </div>
@@ -160,6 +230,7 @@
                   <li>SEO optimisation</li>
                   <li>Multilingual</li>
                 </ul>
+                <p class="serviceButtonMobile">Order service</p>
               </div>
               <p class="serviceButton">Order service</p>
             </div>
@@ -175,7 +246,7 @@
             <div class="swiper-button-next-custom"></div>
           </div>
         </div>
-        
+
         <div class="swiperBox"></div>
         <div class="swiper mySwiperBox">
           <!-- Additional required wrapper -->
@@ -267,7 +338,7 @@
             <div class="swiper-slide">
               <div class="contend">
                 <img class="linkTeams" src="../img/teams/socials.svg" alt="" />
-                <p class="slide-name">Dmytro Shevchenko</p> 
+                <p class="slide-name">Dmytro Shevchenko</p>
                 <p class="slide-description">Web Designer, Team Leader</p>
               </div>
               <img class="imageBW" src="../img/SD/photo/dima_bw.png" alt="" />
@@ -347,10 +418,13 @@
       <section id="contentUs">
         <div class="adoutUs">
           <h2>Order <span class="borderText">Your</span> Project Now</h2>
-          <p>
+          <p class="adoutUsText">
             We are a multi-disciplinary team creating the best websites for our
             clients. Trust the future of your business to us and we will show
             you how your business will grow!
+          </p>
+          <p class="adoutUsTextMobile">
+            We are a multi-disciplinary team creating the best websites for our clients. 
           </p>
           <a class="contentUsBtn" href="./email.html">Contact</a>
         </div>
@@ -391,8 +465,8 @@
           </div>
         </div>
       </section>
-    </main>
     <img src="../img/Rectangle31.png" alt="" />
+    </main>
     <footer>
       <img src="../img/logo.svg" alt="" />
       <div class="footerInfo">
@@ -408,6 +482,7 @@
         </ul>
       </div>
     </footer>
+    <script src="../js/buttonOnclik.js"></script>
     <script src="../js/language.js"></script>
     <script src="../js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
     <script src="../js/swiper-slider.js"></script>
