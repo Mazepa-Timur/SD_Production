@@ -14,6 +14,9 @@ header {
   justify-content: space-between;
 
   background-color: #181818;
+
+  /* Тимчасово*/
+  display: none;
 }
 
 .navigator {
