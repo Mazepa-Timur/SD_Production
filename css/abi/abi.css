@@ -55,9 +55,13 @@ h3 {
   font-weight: 800;
   margin-bottom: 64px;
 }
+
 #organicShop {
-  margin-top: 64px;
+  margin-top: 164px;
 }
+
+
+
 #organicShop h4 {
   width: 940px;
   color: #4D83F0;
@@ -218,6 +222,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  color: #CFCFCF;
 }
 .previous::after {
   content: url('../../img/left1.svg');

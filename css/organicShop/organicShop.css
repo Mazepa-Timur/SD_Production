@@ -37,6 +37,9 @@ main {
   align-items: center;
   justify-content: center;
 }
+main > img {
+  /* max-width: 100vw; */
+}
 h3 {
   color: #fff;
   text-align: start;
@@ -60,7 +63,7 @@ h3 {
 }
 #organicShop h4 {
   width: 940px;
-  color: #50D13B;
+  color: #50d13b;
   font-size: 24px;
   font-weight: 400;
   text-align: start;
@@ -217,6 +220,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  color: #cfcfcf;
 }
 .previous::after {
   content: url('../../img/left1.svg');
@@ -235,4 +239,142 @@ h3 {
   display: block;
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* * {
+    max-width: 375px;
+  } */
+  main > img {
+    width: 100vw;
+  }
+  main {
+    align-items: center;
+  }
+  main h3 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 9vw;
+    width: 249px;
+  }
+  #organicShop h4 {
+    width: 149px;
+  }
+  #organicShop {
+    /* margin-top: 48px; */
+    width: 343px;
+    margin-top: 13vw;
+    padding: 0 4vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    width: 100vw;
+    margin-top: 18vw;
+    padding: 0;
+    gap: 24px;
+    flex-direction: column-reverse;
+  }
+  #aboutProject img {
+    width: 285px;
+  }
+  #aboutProject div {
+    flex-wrap: wrap;
+    gap: 9vw;
+  }
+  #aboutProject p {
+    width: 343px;
+  }
+  .aboutProjectBr {
+    height: 2px;
+    width: 200px;
+    background: radial-gradient(
+      4979852.87% 58.76% at 50% 49.67%,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(117, 117, 117, 0) 89.9%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(0, 0, 0, 0) 89.9%
+    );
+    margin: 0;
+  }
+  #aboutProject .borderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    margin: 17vw 0 13vw;
+    padding: 0 4vw;
+    width: auto;
+  }
+  #goalsAndObjectives ul {
+    margin-top: 48px;
+    display: block;
+  }
+  #mainPage {
+    /* max-width: 375px; */
+    margin: 13vw 4vw;
+    width: auto;
+  }
+  #mainPage h3 {
+    margin-bottom: 6vw;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 3px solid var(--grey-B, #595959);
+    border-radius: 20px;
+    width: 91vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0px 0px 20px 20px;
+    width: 63vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 36.8vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 7vw;
+  }
+  #internalPages div img {
+    border-radius: 20px;
+    border: 1px solid var(--grey-B, #595959);
+    width: 41vw;
+  }
+  #internalPages {
+    margin: 13vw 0;
+    display: flex;
+    gap: 15px;
+    padding: 0 16px;
+  }
+  #nav {
+    padding: 10px 52px;
+    width: 271px;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  .next::after {
+    margin-left: 14.133vw;
+  }
+  .previous::after {
+    margin-left: -9.067vw;
+  }
 }

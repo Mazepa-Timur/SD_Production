@@ -295,6 +295,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
   #contentUs {
+    /* width: 100vw; */
     display: block;
     padding-top: 40vw;
     padding-bottom: 40vw;
