@@ -321,7 +321,7 @@ h3 {
   }
   .aboutProjectBr {
     transform: rotate(90deg);
-    margin: -6vw 0;
+    margin: -16vw 0;
   }
   .aboutProjectBorderText {
     display: block;
@@ -346,7 +346,6 @@ h3 {
     padding: 0 4vw;
   }
   #mainPage h3 {
-    /* margin-bottom: 24px; */
     margin-bottom: 6vw;
   }
   #mainPage div img:nth-child(1) {
@@ -359,7 +358,7 @@ h3 {
     width: 63vw;
   }
   #internalPages div:nth-child(2) {
-    margin-top: 36.800vw;
+    margin-top: 36.8vw;
   }
   #internalPages div {
     display: flex;
@@ -375,5 +374,11 @@ h3 {
     padding: 10px 52px;
     width: auto;
     justify-content: space-between;
+  }
+  .next::after{
+    margin-left: 14.133vw;
+  }
+  .previous::after{
+    margin-left: -9.067vw;
   }
 }
