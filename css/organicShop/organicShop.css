@@ -239,7 +239,7 @@ h3 {
 
 @media screen and (max-width: 767px) {
   * {
-    max-width: 375px;
+    max-width: 100vw;
   }
   main {
     align-items: start;
@@ -247,10 +247,10 @@ h3 {
   #organicShop h3 {
     font-weight: 700;
     font-size: 9vw;
-    width: 249px;
+    width: 66.400vw;
   }
   #organicShop h4 {
-    width: 149px;
+    width: 39.733vw;
   }
   #organicShop {
     /* margin-top: 48px; */
@@ -264,7 +264,7 @@ h3 {
   #aboutProject {
     margin-top: 18vw;
     padding: 0;
-    gap: 24px;
+    gap: 6.400vw;
     flex-direction: column-reverse;
   }
   #aboutProject div {
@@ -272,11 +272,11 @@ h3 {
     gap: 9vw;
   }
   #aboutProject p {
-    width: 343px;
+    width: 91.467vw;
   }
   .aboutProjectBr {
-    height: 2px;
-    width: 200px;
+    height: 0.533vw;
+    width: 53.333vw;
     background: radial-gradient(
       4979852.87% 58.76% at 50% 49.67%,
       rgba(163, 163, 163, 0.7) 0%,
@@ -307,11 +307,10 @@ h3 {
     width: auto;
   }
   #goalsAndObjectives ul {
-    margin-top: 48px;
+    margin-top: 12.800vw;
     display: block;
   }
   #mainPage {
-    /* max-width: 375px; */
     margin: 13vw 4vw;
     width: auto;
   }
@@ -343,12 +342,12 @@ h3 {
   #internalPages {
     margin: 13vw 0;
     display: flex;
-    gap: 15px;
-    padding: 0 16px;
+    gap: 4vw;
+    padding: 0 4.267vw;
   }
   #nav {
-    padding: 10px 52px;
-    width: 271px;
+    padding: 2.667vw 13.867vw;
+    width: 72.267vw;
     justify-content: space-between;
   }
   .next::after {
