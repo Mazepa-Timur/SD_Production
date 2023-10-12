@@ -1,42 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 ::-webkit-scrollbar {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 100px;
   background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
 }
+
 * {
   color: #ffffff;
   list-style: none;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #020202;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .borderText {
   font-weight: 800;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke: 1.5px #fff;
   letter-spacing: 2.5px;
 }
+
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* Тимчасово */
+  /* align-items: center; */
   justify-content: center;
 }
+
+@media screen and (min-width: 767px) {
+  main {
+    align-items: center;
+  }
+}
+
 h3 {
   color: #fff;
   text-align: start;
@@ -50,31 +63,37 @@ h3 {
 .gridBox {
   display: grid;
 }
+
 #organicShop h3 {
   width: 940px;
   font-weight: 800;
   margin-bottom: 64px;
 }
+
 #organicShop {
   margin-top: 64px;
+  /* padding:  0 4vw; */
 }
+
 #organicShop h4 {
-  width: 940px;
-  color: #50D13B;
+  /* width: 940px; */
+  color: #50d13b;
   font-size: 24px;
   font-weight: 400;
   text-align: start;
 }
+
 .organicShopImage {
   width: 100%;
 }
 
 #aboutProject {
-  width: 1180px;
+  max-width: 1180px;
   margin-top: 131px;
   display: flex;
   align-items: center;
 }
+
 #aboutProject div {
   display: flex;
   flex-direction: column;
@@ -83,6 +102,7 @@ h3 {
   text-align: start;
   gap: 48px;
 }
+
 .aboutProjectBr {
   display: block;
   margin: 0 110px;
@@ -94,11 +114,17 @@ h3 {
     rgba(117, 117, 117, 0) 89.9%
   );
 }
-#aboutProject h3 {
-  text-wrap: nowrap;
+
+.aboutProjectBorderText {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke: 1.5px #fff;
+  letter-spacing: 2.5px;
 }
+
 #aboutProject p {
-  width: 480px;
+  /* max-width: 480px; */
   color: #cfcfcf;
   font-family: Montserrat;
   font-size: 16px;
@@ -108,35 +134,44 @@ h3 {
 }
 
 #goalsAndObjectives {
-  width: 1180px;
+  max-width: 1180px;
   margin: 140px 0;
 }
+
 #goalsAndObjectives ul {
   margin-top: 48px;
-  display: flex;
   gap: 28px;
 }
+
+@media screen and (min-width: 767px) {
+  #goalsAndObjectives ul {
+    display: flex;
+  }
+}
+
 #goalsAndObjectives li {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
+
 #goalsAndObjectives li h4 {
   margin-right: 36px;
-
   text-align: center;
   font-size: 64px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
+
 #goalsAndObjectives li h4 span {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
+
 #goalsAndObjectives li h4::after {
-  content: '.';
+  content: ".";
   text-align: center;
   font-family: Montserrat;
   font-size: 64px;
@@ -148,6 +183,7 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #goalsAndObjectives li p {
   width: 200px;
   color: #cfcfcf;
@@ -159,23 +195,27 @@ h3 {
 }
 
 #mainPage {
-  width: 1180px;
+  max-width: 1180px;
   margin: 140px 0;
 }
+
 #mainPage h3 {
   margin-bottom: 64px;
 }
+
 #mainPage div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #mainPage div img:nth-child(1) {
   border-radius: 40px;
   border: 10px solid #595959;
 
   width: 1180px;
 }
+
 #mainPage div img:nth-child(2) {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -183,15 +223,28 @@ h3 {
 }
 
 #internalPages {
-  margin: 140px 0;
+  margin: 13vw 0;
+  /* max-width: 375px; */
   display: flex;
-  gap: 140px;
+  gap: 7vw;
+  padding: 0 4vw;
 }
+
+@media screen and (min-width: 767px) {
+  #internalPages {
+    max-width: 1180px;
+    margin: 140px 0;
+    gap: 140px;
+  }
+}
+
 #internalPages div {
   display: flex;
   flex-direction: column;
-  gap: 140px;
+  gap: 130px;
+  /* padding: 0 4vw; */
 }
+
 #internalPages div img {
   border-radius: 40px;
   border: 5px solid #595959;
@@ -208,7 +261,10 @@ h3 {
   align-items: center;
   border-radius: 40px;
   background: #181818;
+
+  /* Тимчасово */
 }
+
 #nav a {
   display: block;
   align-items: center;
@@ -219,7 +275,7 @@ h3 {
   line-height: 26px;
 }
 .previous::after {
-  content: url('../../img/left1.svg');
+  content: url("../../img/left1.svg");
   position: absolute;
   margin-top: -24px;
   margin-left: -25px;
@@ -228,11 +284,96 @@ h3 {
   height: 20px;
 }
 .next::after {
-  content: url('../../img/right1.svg');
+  content: url("../../img/right1.svg");
   position: absolute;
   margin-top: -24px;
   margin-left: 45px;
   display: block;
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 9vw;
+    max-width: 100%;
+  }
+  #organicShop {
+    /* margin-top: 48px; */
+    margin-top: 13vw;
+    padding: 0 4vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    /* max-width: 375px; */
+    margin-top: 18vw;
+    padding: 0 4vw;
+    flex-direction: column-reverse;
+  }
+  #aboutProject div {
+    /* max-width: 343px; */
+    flex-wrap: wrap;
+    gap: 9vw;
+  }
+  .aboutProjectBr {
+    transform: rotate(90deg);
+    margin: -6vw 0;
+  }
+  .aboutProjectBorderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    /* max-width: 375px; */
+    margin: 17vw 0 13vw;
+    padding: 0 4vw;
+  }
+  #mainPage {
+    /* max-width: 375px; */
+    margin: 13vw 0;
+    padding: 0 4vw;
+  }
+  #mainPage h3 {
+    /* margin-bottom: 24px; */
+    margin-bottom: 6vw;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 3px solid var(--grey-B, #595959);
+    border-radius: 20px;
+    width: 91vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0px 0px 20px 20px;
+    width: 63vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 36.800vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 7vw;
+  }
+  #internalPages div img {
+    border-radius: 20px;
+    border: 1px solid var(--grey-B, #595959);
+    width: 41vw;
+  }
+  #nav {
+    padding: 10px 52px;
+    width: auto;
+    justify-content: space-between;
+  }
 }
