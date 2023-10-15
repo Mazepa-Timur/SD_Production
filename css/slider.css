@@ -176,7 +176,7 @@
   opacity: 1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
   #ourTeam {
     /* display: none; */
     margin-top: 0vw;
@@ -209,11 +209,10 @@
     align-items: center;
     /* display: none; */
   }
-  #ourTeam .slider-name div{
-    margin-top: 45vw;
+  #ourTeam .slider-name div {
+    margin-top: 50vw;
   }
-  #ourTeam h2:nth-child(1) {
-    margin-top: 13vw;
+  #ourTeam h2 {
     color: #fcfcfc;
     text-align: center;
     font-size: 9vw;
@@ -241,7 +240,7 @@
     width: 85vw;
     height: 85vw;
   }
-  #ourTeam  .swiper-slide {
+  #ourTeam .swiper-slide {
     display: flex;
     width: 85vw;
     height: 85vw;
@@ -265,11 +264,11 @@
     display: block;
   }
   .mySwiperBox .contend .slide-name {
-    margin-top: 21vw;
+    margin-top: 25vw;
     width: 30vw;
     color: #fff;
     font-family: Montserrat;
-    font-size: 5.333vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 700;
     line-height: 6vw;
@@ -279,7 +278,7 @@
     width: 30vw;
     color: #fff;
     font-family: Montserrat;
-    font-size: 4.267vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 500;
     line-height: 4vw;
