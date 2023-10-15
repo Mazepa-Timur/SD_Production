@@ -60,7 +60,7 @@ h3 {
 }
 #organicShop h4 {
   width: 940px;
-  color: #FC7158;
+  color: #fc7158;
   font-size: 24px;
   font-weight: 400;
   text-align: start;
@@ -217,10 +217,10 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  color: #CFCFCF;
+  color: #cfcfcf;
 }
 .previous::after {
-  content: url('../../img/left1.svg');
+  content: url('../../img/left1.png');
   position: absolute;
   margin-top: -24px;
   margin-left: -25px;
@@ -229,11 +229,214 @@ h3 {
   height: 20px;
 }
 .next::after {
-  content: url('../../img/right1.svg');
+  content: url('../../img/right1.png');
   position: absolute;
   margin-top: -24px;
   margin-left: 45px;
   display: block;
   width: 20px;
   height: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  main > img {
+    width: 100vw;
+  }
+  main {
+    align-items: center;
+  }
+  main h3 {
+    font-family: Montserrat;
+    font-size: 10.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 9vw;
+    width: 66.4vw;
+  }
+  #organicShop h4 {
+    width: 66.4vw;
+    font-size: 6.4vw;
+  }
+  #organicShop {
+    margin-top: 0;
+    width: 91.467vw;
+    margin-top: 13vw;
+    padding: 0 4vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    width: 100vw;
+    margin-top: 18vw;
+    padding: 0;
+    gap: 6.400vw;
+    flex-direction: column-reverse;
+  }
+  #aboutProject img {
+    width: 76vw;
+  }
+  #aboutProject div {
+    flex-wrap: wrap;
+    gap: 9vw;
+  }
+  #aboutProject p {
+    width: 91.467vw;
+    font-size: 4.267vw;
+    font-weight: 400;
+    line-height: 6.933vw;
+  }
+  .aboutProjectBr {
+    height: 0.533vw;
+    width: 53.333vw;
+    background: radial-gradient(
+      4979852.87% 58.76% at 50% 49.67%,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(117, 117, 117, 0) 89.9%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(0, 0, 0, 0) 89.9%
+    );
+    margin: 0;
+  }
+  #aboutProject .borderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    margin: 17vw 0 13vw;
+    padding: 0 4vw;
+    width: auto;
+  }
+  #goalsAndObjectives ul {
+    margin-top: 12.8vw;
+    display: block;
+  }
+  #goalsAndObjectives li h4 {
+    margin-right: 4.267vw;
+
+    text-align: center;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4 span {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4::after {
+    content: '.';
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #goalsAndObjectives li p {
+    width: 100%;
+    color: #cfcfcf;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+  }
+  #mainPage {
+    margin: 13vw 4vw;
+    width: auto;
+  }
+  #mainPage h3 {
+    margin-bottom: 6vw;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 0.800vw solid var(--grey-B, #595959);
+    border-radius: 5.333vw;
+    width: 91vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0 0 5.333vw 5.333vw;
+    width: 63vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 36.8vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 7vw;
+  }
+  #internalPages div img {
+    border-radius: 5.333vw;
+    border: 0.267vw solid #595959;
+    width: 41vw;
+  }
+  #internalPages {
+    margin: 13vw 0;
+    display: flex;
+    gap: 4vw;
+    padding: 0 4.267vw;
+  }
+  #nav {
+    padding: 2.667vw 4.267vw;
+    width: 91.467vw;
+    justify-content: space-between;
+    margin-bottom: 12.8vw;
+  }
+
+  #nav a {
+    display: block;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+    color: #cfcfcf;
+  }
+  /* .next::after {
+    margin-left: 14.133vw;
+  }
+  .previous::after {
+    margin-left: -9.067vw;
+  } */
+  #nav div {
+    display: flex;
+    align-items: center;
+    gap: 4.267vw;
+  }
+  #nav img {
+    display: block;
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+  .previous::after {
+    display: none;
+  }
+  .next::after {
+    display: none;
+  }
 }

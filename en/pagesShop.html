@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/pagesShop/pagesShop.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer-sd.css" />
@@ -14,21 +14,42 @@
     <header>
       <div>
         <a href="../en/home.html">
-          <img src="../img/logo.svg" alt="SD" />
+          <img class="logo" src="../img/logo.svg" alt="SD" />
         </a>
       </div>
       <ul class="navigator">
-        <li><a href="./home.html#projects">Projects</a></li>
-        <li><a href="./home.html#services">Services</a></li>
-        <li><a href="./home.html#ourTeam">Team</a></li>
-        <li><a href="./home.html#contentUs">Contact</a></li>
+        <li><a href="../en/home.html#projects">Projects</a></li>
+        <li><a href="../en/home.html#services">Services</a></li>
+        <li><a href="../en/home.html#ourTeam">Team</a></li>
+        <li><a href="../en/home.html#contentUs">Contact</a></li>
       </ul>
       <div>
         <ul class="langChange langHide">
           <li class="languageActive">EN</li>
-          <li><a href="../du/pagesShop.html">DE</a></li>
+          <li><a href="../du/home.html">DE</a></li>
           <li><a href="">RU</a></li>
         </ul>
+      </div>
+      <div class="HamburgerMenu hide">
+        <img
+          class="HamburgerMenuButton"
+          src="../img/HamburgerMenu.svg"
+          alt=""
+        />
+        <div class="HamburgerMenuNav">
+          <img
+            class="HamburgerMenuButtonClose"
+            src="../img/closeAction.svg"
+            alt=""
+          />
+          <ul>
+            <li><a href="../en/home.html#">Hero</a></li>
+            <li><a href="../en/home.html#projects">Projects</a></li>
+            <li><a href="../en/home.html#services">Services</a></li>
+            <li><a href="../en/home.html#ourTeam">Team</a></li>
+            <li><a href="../en/home.html#contentUs">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -101,18 +122,29 @@
           <img src="../img/pagesShop/page5.png" alt="" />
         </div>
       </section>
+
       <section id="nav">
-        <a class="previous" href="./abi.html">Previous</a>
-        <a class="next" href="./organicShop.html">Next</a>
+        <div>
+          <img src="../img/left1.svg" alt="" />
+          <a class="previous" href="./abi.html">Previous</a>
+        </div>
+        <div>
+          <a class="next" href="./organicShop.html">Next</a>
+          <img src="../img/right1.svg" alt="" />
+        </div>
       </section>
 
       <section id="contentUs">
         <div class="adoutUs">
           <h2>Order <span class="borderText">Your</span> Project Now</h2>
-          <p>
+          <p class="adoutUsText">
             We are a multi-disciplinary team creating the best websites for our
             clients. Trust the future of your business to us and we will show
             you how your business will grow!
+          </p>
+          <p class="adoutUsTextMobile">
+            We are a multi-disciplinary team creating the best websites for our
+            clients.
           </p>
           <a class="contentUsBtn" href="./email.html">Contact</a>
         </div>
@@ -129,47 +161,47 @@
             <img src="../img/group/CursorGreen.svg" alt="" />
             <p>Serhii</p>
           </div>
-          <div class="peoples">
-            <div class="group peoplePink">
-              <img src="../img/group/CursorPink.svg" alt="" />
-              <p>Roman</p>
-            </div>
-            <div class="group peopleBlueLight">
-              <img src="../img/group/CursorBlueLight.svg" alt="" />
-              <p>Matvej</p>
-            </div>
-            <div class="group peopleOrange">
-              <img src="../img/group/CursorOrange.svg" alt="" />
-              <p>Natasha</p>
-            </div>
-            <div class="group peopleLightPink">
-              <img src="../img/group/CursorLightPink.svg" alt="" />
-              <p>Nazar</p>
-            </div>
-            <div class="group peopleYellow">
-              <img src="../img/group/CursorYellow.svg" alt="" />
-              <p>Bohdan</p>
-            </div>
+          <div class="group peoplePink">
+            <img src="../img/group/CursorPink.svg" alt="" />
+            <p>Roman</p>
+          </div>
+          <div class="group peopleBlueLight">
+            <img src="../img/group/CursorBlueLight.svg" alt="" />
+            <p>Matvej</p>
+          </div>
+          <div class="group peopleOrange">
+            <img src="../img/group/CursorOrange.svg" alt="" />
+            <p>Natasha</p>
+          </div>
+          <div class="group peopleLightPink">
+            <img src="../img/group/CursorLightPink.svg" alt="" />
+            <p>Nazar</p>
+          </div>
+          <div class="group peopleYellow">
+            <img src="../img/group/CursorYellow.svg" alt="" />
+            <p>Bohdan</p>
           </div>
         </div>
       </section>
+      <img class="mainImg" src="../img/devider.svg" alt="" />
     </main>
-    <img src="../img/Rectangle31.png" alt="" />
     <footer>
       <img src="../img/logo.svg" alt="" />
       <div class="footerInfo">
         <ul class="navigator">
-          <li><a href="./home.html#projects">Projects</a></li>
-          <li><a href="./home.html#services">Services</a></li>
-          <li><a href="./home.html#ourTeam">Team</a></li>
-          <li><a href="./home.html#contentUs">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#ourTeam">Team</a></li>
+          <li><a href="#contentUs">Contact</a></li>
         </ul>
         <ul class="mediaInfo">
           <li>Privacy Policy</li>
-          <li>© 2020 Lift media. All rights reserved.</li>
+          <li>© 2023 All rights reserved.</li>
         </ul>
       </div>
+      <img class="mainImgMobile backgroundFooter" src="../img/Ellipse.svg" alt="" />
     </footer>
+    <script src="../js/buttonOnclik.js"></script>
     <script src="../js/language.js"></script>
   </body>
 </html>

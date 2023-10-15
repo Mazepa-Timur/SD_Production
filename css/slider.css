@@ -210,9 +210,10 @@
     /* display: none; */
   }
   #ourTeam .slider-name div{
-    margin-top: 50vw;
+    margin-top: 45vw;
   }
-  #ourTeam h2 {
+  #ourTeam h2:nth-child(1) {
+    margin-top: 13vw;
     color: #fcfcfc;
     text-align: center;
     font-size: 9vw;
@@ -264,11 +265,11 @@
     display: block;
   }
   .mySwiperBox .contend .slide-name {
-    margin-top: 25vw;
+    margin-top: 21vw;
     width: 30vw;
     color: #fff;
     font-family: Montserrat;
-    font-size: 5vw;
+    font-size: 5.333vw;
     font-style: normal;
     font-weight: 700;
     line-height: 6vw;
@@ -278,7 +279,7 @@
     width: 30vw;
     color: #fff;
     font-family: Montserrat;
-    font-size: 3vw;
+    font-size: 4.267vw;
     font-style: normal;
     font-weight: 500;
     line-height: 4vw;

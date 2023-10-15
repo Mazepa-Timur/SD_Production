@@ -223,7 +223,7 @@ h3 {
   color: #cfcfcf;
 }
 .previous::after {
-  content: url('../../img/left1.svg');
+  content: url('../../img/left1.png');
   position: absolute;
   margin-top: -24px;
   margin-left: -25px;
@@ -232,7 +232,7 @@ h3 {
   height: 20px;
 }
 .next::after {
-  content: url('../../img/right1.svg');
+  content: url('../../img/right1.png');
   position: absolute;
   margin-top: -24px;
   margin-left: 45px;
@@ -241,10 +241,7 @@ h3 {
   height: 20px;
 }
 
-@media screen and (max-width: 767px) {
-  /* * {
-    max-width: 375px;
-  } */
+@media screen and (max-width: 768px) {
   main > img {
     width: 100vw;
   }
@@ -253,7 +250,7 @@ h3 {
   }
   main h3 {
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 10.667vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -261,14 +258,15 @@ h3 {
   #organicShop h3 {
     font-weight: 700;
     font-size: 9vw;
-    width: 249px;
+    width: 66.4vw;
   }
   #organicShop h4 {
-    width: 149px;
+    width: 66.4vw;
+    font-size: 6.4vw;
   }
   #organicShop {
-    /* margin-top: 48px; */
-    width: 343px;
+    margin-top: 0;
+    width: 91.467vw;
     margin-top: 13vw;
     padding: 0 4vw;
   }
@@ -280,22 +278,25 @@ h3 {
     width: 100vw;
     margin-top: 18vw;
     padding: 0;
-    gap: 24px;
+    gap: 6.400vw;
     flex-direction: column-reverse;
   }
   #aboutProject img {
-    width: 285px;
+    width: 76vw;
   }
   #aboutProject div {
     flex-wrap: wrap;
     gap: 9vw;
   }
   #aboutProject p {
-    width: 343px;
+    width: 91.467vw;
+    font-size: 4.267vw;
+    font-weight: 400;
+    line-height: 6.933vw;
   }
   .aboutProjectBr {
-    height: 2px;
-    width: 200px;
+    height: 0.533vw;
+    width: 53.333vw;
     background: radial-gradient(
       4979852.87% 58.76% at 50% 49.67%,
       rgba(163, 163, 163, 0.7) 0%,
@@ -326,11 +327,46 @@ h3 {
     width: auto;
   }
   #goalsAndObjectives ul {
-    margin-top: 48px;
+    margin-top: 12.8vw;
     display: block;
   }
+  #goalsAndObjectives li h4 {
+    margin-right: 4.267vw;
+
+    text-align: center;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4 span {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4::after {
+    content: '.';
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17.067vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #goalsAndObjectives li p {
+    width: 100%;
+    color: #cfcfcf;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+  }
   #mainPage {
-    /* max-width: 375px; */
     margin: 13vw 4vw;
     width: auto;
   }
@@ -338,12 +374,12 @@ h3 {
     margin-bottom: 6vw;
   }
   #mainPage div img:nth-child(1) {
-    border: 3px solid var(--grey-B, #595959);
-    border-radius: 20px;
+    border: 0.800vw solid var(--grey-B, #595959);
+    border-radius: 5.333vw;
     width: 91vw;
   }
   #mainPage div img:nth-child(2) {
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0 0 5.333vw 5.333vw;
     width: 63vw;
   }
   #internalPages div:nth-child(2) {
@@ -355,26 +391,53 @@ h3 {
     gap: 7vw;
   }
   #internalPages div img {
-    border-radius: 20px;
-    border: 1px solid var(--grey-B, #595959);
+    border-radius: 5.333vw;
+    border: 0.267vw solid #595959;
     width: 41vw;
   }
   #internalPages {
     margin: 13vw 0;
     display: flex;
-    gap: 15px;
-    padding: 0 16px;
+    gap: 4vw;
+    padding: 0 4.267vw;
   }
   #nav {
-    padding: 10px 52px;
-    width: 271px;
+    padding: 2.667vw 4.267vw;
+    width: 91.467vw;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 12.8vw;
   }
-  .next::after {
+
+  #nav a {
+    display: block;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 4.267vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.933vw;
+    color: #cfcfcf;
+  }
+  /* .next::after {
     margin-left: 14.133vw;
   }
   .previous::after {
     margin-left: -9.067vw;
+  } */
+  #nav div {
+    display: flex;
+    align-items: center;
+    gap: 4.267vw;
+  }
+  #nav img {
+    display: block;
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+  .previous::after {
+    display: none;
+  }
+  .next::after {
+    display: none;
   }
 }

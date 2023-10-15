@@ -205,7 +205,7 @@
   animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
 }
 .peopleLightPink p {
-  background: #BF0099;
+  background: #bf0099;
 }
 @keyframes peopleLightPink {
   0% {
@@ -226,7 +226,7 @@
   animation: 1s ease-in-out 1s infinite alternate peopleYellow;
 }
 .peopleYellow p {
-  background: #FCFF00;
+  background: #fcff00;
   color: #020202;
 }
 @keyframes peopleYellow {
@@ -239,7 +239,6 @@
     margin-left: 710px;
   }
 }
-
 
 .navigator {
   display: grid;
@@ -293,7 +292,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
   #contentUs {
     /* width: 100vw; */
     display: block;
@@ -322,7 +320,7 @@ footer {
     color: #cfcfcf;
     text-align: center;
     font-family: Montserrat;
-    font-size: 4vw;
+    font-size: 4.267vw;
     font-style: normal;
     font-weight: 400;
     line-height: 5vw;
@@ -346,13 +344,13 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-  
+
     border-radius: 10000px;
     background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
   }
 
   .group p {
-    font-size: 3vw;
+    font-size: 4.267vw;
     padding: 1vw 2vw;
     line-height: 4vw;
   }
@@ -366,7 +364,7 @@ footer {
     position: absolute;
     margin-top: -100vw;
     margin-left: 55vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleBlue;
   }
   .peopleBlue p {
@@ -386,7 +384,7 @@ footer {
     position: absolute;
     margin-top: -85vw;
     margin-left: 70vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleRed;
   }
   .peopleRed p {
@@ -406,7 +404,7 @@ footer {
     position: absolute;
     margin-top: -100vw;
     margin-left: 30vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleGreen;
   }
   .peopleGreen p {
@@ -423,12 +421,12 @@ footer {
       margin-left: 30vw;
     }
   }
-  
+
   .peoplePink {
     position: absolute;
     margin-top: 10vw;
     margin-left: 70vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peoplePink;
   }
   .peoplePink p {
@@ -448,7 +446,7 @@ footer {
     position: absolute;
     margin-top: 20vw;
     margin-left: 30vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleBlueLight;
   }
   .peopleBlueLight p {
@@ -469,7 +467,7 @@ footer {
     position: absolute;
     margin-top: 20vw;
     margin-left: 50vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleOrange;
   }
   .peopleOrange p {
@@ -485,16 +483,16 @@ footer {
       margin-left: 49vw;
     }
   }
-  
+
   .peopleLightPink {
     position: absolute;
     margin-top: -85vw;
     margin-left: 10vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleLightPink;
   }
   .peopleLightPink p {
-    background: #BF0099;
+    background: #bf0099;
   }
   @keyframes peopleLightPink {
     0% {
@@ -506,16 +504,16 @@ footer {
       margin-left: 9vw;
     }
   }
-  
+
   .peopleYellow {
     position: absolute;
     margin-top: 10vw;
     margin-left: 10vw;
-  
+
     animation: 1s ease-in-out 1s infinite alternate peopleYellow;
   }
   .peopleYellow p {
-    background: #FCFF00;
+    background: #fcff00;
     color: #020202;
   }
   @keyframes peopleYellow {
@@ -528,7 +526,28 @@ footer {
       margin-left: 8vw;
     }
   }
-  footer .navigator{
+  .mainImg {
     display: none;
+  }
+  .mainImgMobile {
+    display: block;
+  }
+  footer {
+    margin: 0;
+    height: 45vw;
+  }
+  footer .logo {
+    margin-top: 55vw;
+    width: 20vw;
+  }
+  footer .navigator {
+    display: none;
+  }
+  .backgroundFooter {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 10vw;
   }
 }

@@ -27,13 +27,39 @@
   margin-left: 155px;
 }
 
-
 .next-du::after {
-    content: url('../../img/right1.svg');
-    position: absolute;
-    margin-top: -24px;
-    margin-left: 60px;
-    display: block;
-    width: 20px;
-    height: 20px;
+  content: url('../../img/right1.png');
+  position: absolute;
+  margin-top: -24px;
+  margin-left: 60px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #projects h2 {
+    width: 100vw;
   }
+  .serviceButton-du {
+    display: none;
+  }
+  .previous-du::after {
+    display: none;
+  }
+  .next-du::after {
+    display: none;
+  }
+  .hero::before {
+    margin-top: -19vw;
+  }
+  .servicesFragment .serviceButtonMobile:hover {
+    color: #7d3bd1;
+  }
+  .servicesFragment .serviceButtonMobile::after {
+    margin-left: 37vw;
+  }
+  .servicesFragment .serviceButtonMobile:hover::after {
+    margin-left: 40vw;
+  }
+}

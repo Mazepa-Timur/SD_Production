@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/whiteCollar/whiteCollar.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer-sd.css" />
@@ -15,21 +15,42 @@
     <header>
       <div>
         <a href="../du/home.html">
-          <img src="../img/logo.svg" alt="SD" />
+          <img class="logo" src="../img/logo.svg" alt="SD" />
         </a>
       </div>
       <ul class="navigator">
-        <li><a href="./home.html#projects">Projekte</a></li>
-        <li><a href="./home.html#services">Dienste</a></li>
-        <li><a href="./home.html#ourTeam">Team</a></li>
-        <li><a href="./home.html#contentUs">Kontakt</a></li>
+        <li><a href="../du/home.html#projects">Projekte</a></li>
+        <li><a href="../du/home.html#services">Dienstleistungen</a></li>
+        <li><a href="../du/home.html#ourTeam">Team</a></li>
+        <li><a href="../du/home.html#contentUs">Kontakt</a></li>
       </ul>
       <div>
         <ul class="langChange langHide">
-          <li class="languageActive">DE</li>
-          <li><a href="../en/whiteCollar.html">EN</a></li>
+          <li class="languageActive">EN</li>
+          <li><a href="../du/home.html">DE</a></li>
           <li><a href="">RU</a></li>
         </ul>
+      </div>
+      <div class="HamburgerMenu hide">
+        <img
+          class="HamburgerMenuButton"
+          src="../img/HamburgerMenu.svg"
+          alt=""
+        />
+        <div class="HamburgerMenuNav">
+          <img
+            class="HamburgerMenuButtonClose"
+            src="../img/closeAction.svg"
+            alt=""
+          />
+          <ul>
+            <li><a href="../du/home.html#">Hero</a></li>
+            <li><a href="../du/home.html#projects">Projekte</a></li>
+            <li><a href="../du/home.html#services">Dienstleistungen</a></li>
+            <li><a href="../du/home.html#ourTeam">Team</a></li>
+            <li><a href="../du/home.html#contentUs">Kontakt</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -119,18 +140,28 @@
       </section>
 
       <section id="nav">
-        <a class="previous" href="./organicShop.html">Vorherige</a>
-        <a class="next-du" href="./briliniStudio.html">Weiter</a>
+        <div>
+          <img src="../img/left1.svg" alt="" />
+          <a class="previous" href="./organicShop.html">Vorherige</a>
+        </div>
+        <div>
+          <a class="next-du" href="./briliniStudio.html">Weiter</a>
+          <img src="../img/right1.svg" alt="" />
+        </div>
       </section>
 
       <section id="contentUs">
         <div class="adoutUs">
           <h2>Bestellen <span class="borderText">Sie Ihr</span> project Now</h2>
-          <p>
+          <p class="adoutUsText">
             Wir sind ein multidisziplinäres Team, das die besten Websites für
             unsere Kunden erstellt. Vertrauen Sie uns die Zukunft Ihres
             Unternehmens an und wir werden Ihnen zeigen, wie Ihr Unternehmen
             wachsen wird!
+          </p>
+          <p class="adoutUsTextMobile">
+            We are a multi-disciplinary team creating the best websites for our
+            clients.
           </p>
           <a class="contentUsBtn" href="./email.html">Kontakt</a>
         </div>
@@ -171,8 +202,8 @@
           </div>
         </div>
       </section>
+      <img src="../img/devider.svg" alt="" />
     </main>
-    <img src="../img/Rectangle31.png" alt="" />
     <footer>
       <img src="../img/logo.svg" alt="" />
       <div class="footerInfo">
@@ -188,6 +219,7 @@
         </ul>
       </div>
     </footer>
+    <script src="../js/buttonOnclik.js"></script>
     <script src="../js/language.js"></script>
   </body>
 </html>
