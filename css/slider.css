@@ -175,8 +175,8 @@
   transition: 300ms;
   opacity: 1;
 }
-
-@media only screen and (max-width: 375px) {
+/* Зміна */
+@media only screen and (max-width: 768px) {
   #ourTeam {
     /* display: none; */
     margin-top: 0vw;

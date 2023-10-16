@@ -36,8 +36,8 @@
   width: 20px;
   height: 20px;
 }
-
-@media only screen and (max-width: 375px) {
+/* Зміна */
+@media only screen and (max-width: 768px) {
   #projects h2 {
     width: 100vw;
   }
