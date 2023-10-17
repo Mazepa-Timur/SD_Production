@@ -109,13 +109,17 @@ header {
   height: 100%;
 }
 
+#buttonContainerLanguage {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     background: transparent;
     padding: 4.69vw 6.25vw;
     display: flex;
     justify-content: space-between;
-    width: 87.50vw;
+    width: 87.5vw;
     margin-top: 0;
   }
   header .logo {
@@ -168,6 +172,23 @@ header {
   }
   header .langChange {
     display: none;
+  }
+  #buttonContainerLanguage {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  #buttonContainerLanguage button {
+    color: #cfcfcf;
+    background-color: black;
+    outline: none;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
   }
 }
 

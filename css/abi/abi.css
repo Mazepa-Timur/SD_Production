@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 ::-webkit-scrollbar {
   background: transparent;
 }
@@ -11,13 +11,13 @@
   color: #ffffff;
   list-style: none;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #020202;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ body {
 }
 .borderText {
   font-weight: 800;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke: 1.5px #fff;
   letter-spacing: 2.5px;
@@ -139,7 +139,7 @@ h3 {
   line-height: normal;
 }
 #goalsAndObjectives li h4::after {
-  content: '.';
+  content: ".";
   text-align: center;
   font-family: Montserrat;
   font-size: 64px;
@@ -238,6 +238,209 @@ h3 {
   width: 100%;
   margin: 140px 0;
 }
+
+/*  */
+
+@media screen and (max-width: 768px) {
+  main > img {
+    width: auto;
+  }
+  main {
+    align-items: center;
+  }
+  main h3 {
+    font-family: Montserrat;
+    font-size: 5.21vw;
+    font-style: normal;
+    /* width:auto; */
+    width: max-content;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #organicShop h3 {
+    font-weight: 700;
+    font-size: 8.33vw;
+    width: auto;
+    margin-bottom: 6.25vw;
+  }
+  #organicShop h4 {
+    width: 19.4vw;
+    font-size: 3.13vw;
+  }
+  #organicShop {
+    margin-top: 0;
+    width: 87.5vw;
+    padding: 0 6.25vw;
+    margin-top: 1.3vw;
+  }
+  .organicShopImage {
+    height: 36vw;
+    object-fit: cover;
+  }
+  #aboutProject {
+    width: auto;
+    margin-top: 15.63vw;
+    padding: 0;
+    gap: 6.4vw;
+    flex-direction: row;
+  }
+  #aboutProject img {
+    width: 37.11vw;
+  }
+  #aboutProject div {
+    flex-wrap: wrap;
+    gap: 3.13vw;
+  }
+  #aboutProject p {
+    width: 36.72vw;
+    font-size: 2.08vw;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .aboutProjectBr {
+    width: 1px;
+    height: 39.97vw;
+    background: radial-gradient(
+      4979852.87% 58.76% at 50% 49.67%,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(117, 117, 117, 0) 89.9%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(163, 163, 163, 0.7) 0%,
+      rgba(0, 0, 0, 0) 89.9%
+    );
+    margin: 0;
+  }
+  #aboutProject .borderText {
+    display: block;
+    font-weight: 700;
+  }
+  .aboutProject {
+    width: 76vw;
+    height: 21vw;
+  }
+  .titleparagraphs {
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  #goalsAndObjectives {
+    margin: 17vw 0 13vw;
+    padding: 0 6.25vw;
+    width: auto;
+  }
+  #goalsAndObjectives ul {
+    margin-top: 4.17vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #goalsAndObjectives li {
+    width: 39.06vw;
+  }
+  #goalsAndObjectives li h4 {
+    margin-right: 2.08vw;
+    text-align: center;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4 span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.33vw;
+    line-height: normal;
+  }
+  #goalsAndObjectives li h4::after {
+    content: ".";
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 8.33vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #goalsAndObjectives li p {
+    width: 100%;
+    color: #cfcfcf;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  #mainPage {
+    margin: 15.63vw 0;
+    padding: 0 6.15vw;
+    width: auto;
+  }
+  #mainPage h3 {
+    margin-bottom: 3.13vw;
+    width: auto;
+  }
+  #mainPage div img:nth-child(1) {
+    border: 5px solid var(--grey-B, #595959);
+    border-radius: 40px;
+    width: 86.2vw;
+  }
+  #mainPage div img:nth-child(2) {
+    border-radius: 0 0 5.333vw 5.333vw;
+    width: 60.42vw;
+  }
+  #internalPages div:nth-child(2) {
+    margin-top: 13.67vw;
+  }
+  #internalPages div {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25vw;
+  }
+  #internalPages div img {
+    border-radius: 40px;
+    border: 5px solid #595959;
+    width: 39.32vw;
+  }
+  #internalPages {
+    margin: 15.63vw 0;
+    display: flex;
+    gap: 6.25vw;
+    padding: 0 5.99vw;
+  }
+  #nav {
+    padding: 1.43vw 2.08vw;
+    width: 83.33vw;
+    justify-content: space-between;
+    margin-bottom: 12.8vw;
+  }
+
+  #nav a {
+    display: block;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 2.08vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #cfcfcf;
+  }
+  #nav div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  #nav img {
+    display: block;
+    width: 5.333vw;
+    height: 5.333vw;
+  }
+}
+
+/*  */
 
 @media screen and (max-width: 375px) {
   main > img {
@@ -343,7 +546,7 @@ h3 {
     line-height: normal;
   }
   #goalsAndObjectives li h4::after {
-    content: '.';
+    content: ".";
     text-align: center;
     font-family: Montserrat;
     font-size: 17.067vw;
