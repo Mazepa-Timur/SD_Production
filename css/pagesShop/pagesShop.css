@@ -433,8 +433,6 @@ h3 {
   }
 }
 
-/*  */
-
 @media screen and (max-width: 375px) {
   main > img {
     width: 100vw;
@@ -446,6 +444,7 @@ h3 {
     font-family: Montserrat;
     font-size: 10.667vw;
     font-style: normal;
+    width: auto;
     font-weight: 700;
     line-height: normal;
   }
@@ -524,6 +523,9 @@ h3 {
     margin-top: 12.8vw;
     display: block;
   }
+  #goalsAndObjectives li {
+    width: auto;
+  }
   #goalsAndObjectives li h4 {
     margin-right: 4.267vw;
 
@@ -536,10 +538,11 @@ h3 {
   #goalsAndObjectives li h4 span {
     font-style: normal;
     font-weight: 600;
+    font-size: 17.07vw;
     line-height: normal;
   }
   #goalsAndObjectives li h4::after {
-    content: '.';
+    content: ".";
     text-align: center;
     font-family: Montserrat;
     font-size: 17.067vw;
@@ -562,6 +565,10 @@ h3 {
   }
   #mainPage {
     margin: 13vw 4vw;
+
+    /*  */
+    padding: 0;
+    /*  */
     width: auto;
   }
   #mainPage h3 {
