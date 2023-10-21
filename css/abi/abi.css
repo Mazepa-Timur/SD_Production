@@ -41,7 +41,7 @@ h3 {
   color: #fff;
   text-align: start;
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -51,19 +51,16 @@ h3 {
   display: grid;
 }
 #organicShop h3 {
-  width: 940px;
   font-weight: 800;
-  margin-bottom: 64px;
+  margin-bottom: 3.33vw;
 }
-
 #organicShop {
-  margin-top: 164px;
+  margin-top: 3.33vw;
+  width: 61.77vw;
 }
-
 #organicShop h4 {
-  width: 940px;
   color: #4d83f0;
-  font-size: 24px;
+  font-size: 1.25vw;
   font-weight: 400;
   text-align: start;
 }
@@ -72,25 +69,27 @@ h3 {
 }
 
 #aboutProject {
-  width: 1180px;
-  margin-top: 131px;
+  width: 61.46vw;
+  margin-top: 6.82vw;
   display: flex;
   align-items: center;
 }
+#aboutProject img {
+ width: 20.83vw; 
+}
 #aboutProject div {
-  /* width: min-content; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   text-align: start;
-  gap: 48px;
+  gap: 2.50vw;
 }
 .aboutProjectBr {
   display: block;
-  margin: 0 110px;
-  width: 2px;
-  height: 200px;
+  margin: 0 5.73vw;
+  width: 0.10vw;
+  height: 10.42vw;
   background: radial-gradient(
     4979852.87% 58.76% at 50% 49.67%,
     rgba(163, 163, 163, 0.7) 0%,
@@ -101,23 +100,23 @@ h3 {
   text-wrap: nowrap;
 }
 #aboutProject p {
-  width: 480px;
+  width: 25vw;
   color: #cfcfcf;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.35vw;
 }
 
 #goalsAndObjectives {
-  width: 1180px;
-  margin: 140px 0;
+  width: 61.46vw;;
+  margin: 7.29vw 0;
 }
 #goalsAndObjectives ul {
-  margin-top: 48px;
+  margin-top: 2.50vw;
   display: flex;
-  gap: 28px;
+  gap: 1.46vw;
 }
 #goalsAndObjectives li {
   display: flex;
@@ -126,9 +125,8 @@ h3 {
 }
 #goalsAndObjectives li h4 {
   margin-right: 36px;
-
   text-align: center;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -142,7 +140,7 @@ h3 {
   content: ".";
   text-align: center;
   font-family: Montserrat;
-  font-size: 64px;
+  font-size: 3.33vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -152,21 +150,21 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 #goalsAndObjectives li p {
-  width: 200px;
+  width: 10.42vw;
   color: #cfcfcf;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.35vw;
 }
 
 #mainPage {
-  width: 1180px;
-  margin: 140px 0;
+  width: 61.46vw;
+  margin: 7.29vw 0;
 }
 #mainPage h3 {
-  margin-bottom: 64px;
+  margin-bottom: 3.33vw;
 }
 #mainPage div {
   display: flex;
@@ -175,68 +173,64 @@ h3 {
 }
 #mainPage div img:nth-child(1) {
   border-radius: 40px;
-  border: 10px solid #595959;
+  border: 0.52vw solid #595959;
 
-  width: 1180px;
+  width: 61.46vw;
 }
 #mainPage div img:nth-child(2) {
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  width: 815px;
+  border-bottom-left-radius: 2.08vw;
+  border-bottom-right-radius: 2.08vw;
+  width: 42.45vw;
 }
 
 #internalPages {
-  margin: 140px 0;
+  margin: 7.29vw 0;
   display: flex;
-  gap: 140px;
+  gap: 7.29vw;
 }
 #internalPages div {
   display: flex;
   flex-direction: column;
-  gap: 140px;
+  gap: 7.29vw;
 }
 #internalPages div img {
-  border-radius: 40px;
+  border-radius: 2.08vw;
   border: 5px solid #595959;
-  width: 500px;
+  width: 26.04vw;
 }
 
 #nav {
-  margin-bottom: 140px;
+  margin-top: 7.29vw;
+  margin-bottom: 7.29vw;
   display: flex;
-  width: 1180px;
-  height: 26px;
-  padding: 10px 120px;
+  width: 61.46vw;
+  height: 1.35vw;
+  padding: 0.52vw 6.25vw;
   justify-content: space-between;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 2.08vw;
   background: #181818;
 }
 #nav a {
   display: block;
   align-items: center;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 0.83vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.35vw;
   color: #cfcfcf;
 }
 #nav div {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 0.83vw;
 }
 #nav div img {
   display: flex;
   align-items: center;
-  width: 20px;
-  height: 20px;
-}
-
-.video {
-  width: 100%;
-  margin: 140px 0;
+  width: 1.04vw;
+  height: 1.04vw;
 }
 
 /*  */
