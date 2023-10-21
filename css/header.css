@@ -250,7 +250,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10vh;
+    gap: 17.07vw;
+    margin-top: 21.33vw;
     background-color: #000;
   }
   .HamburgerMenuNav ul li {
