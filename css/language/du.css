@@ -7,12 +7,13 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
+  line-height: normal;
 }
 .servicesFragment .serviceButton-du:hover {
   color: #7d3bd1;
 }
 .servicesFragment .serviceButton-du::after {
-  content: url('../../img/left.svg');
+  content: url('../img/left.svg');
   position: absolute;
   display: block;
   width: 14px;
@@ -22,7 +23,7 @@
   transition: 200ms;
 }
 .servicesFragment .serviceButton-du:hover::after {
-  content: url('../../img/leftPurple.svg');
+  content: url('../img/leftPurple.svg');
   margin-left: 155px;
 }
 
@@ -35,10 +36,10 @@
   width: 20px;
   height: 20px;
 }
-
+/* Зміна */
 @media only screen and (max-width: 768px) {
   #projects h2 {
-    width: 95vw;
+    width: 100vw;
   }
   .serviceButton-du {
     display: none;

@@ -375,21 +375,21 @@
     align-items: center;
   }
   .swiper-button-prev-custom {
-    width: 56px;
-    height: 56px;
+    width: 14.93vw;
+    height: 14.93vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #595959;
+    border: 0.53vw solid #595959;
     border-radius: 100vw;
   }
   .swiper-button-next-custom {
-    width: 56px;
-    height: 56px;
+    width: 14.93vw;
+    height: 14.93vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #595959;
+    border: 0.53vw solid #595959;
     border-radius: 100vw;
   }
   .swiper-button-prev-custom:hover {

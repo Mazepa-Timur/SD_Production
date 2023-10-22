@@ -4,7 +4,9 @@ try {
     if (hamburgerMenu.className === 'HamburgerMenu hide') {
       hamburgerMenu.className = 'HamburgerMenu show';
     } else {
+    console.log(hamburgerMenu.className);
       hamburgerMenu.className = 'HamburgerMenu hide';
+      return
     }
   });
 } catch (error) {

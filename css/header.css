@@ -31,7 +31,7 @@
     text-align: center;
   }
   .navigator li:hover {
-    font-size: 0.83vw;
+    font-size: 0.78vw;
     font-weight: 700;
   }
   .langChange ul {
@@ -241,12 +241,12 @@
 @media only screen and (max-width: 375px) {
   .HamburgerMenuContainerLanguage {
     display: flex;
-    gap: 12px;
+    gap: 3.20vw;
   }
   .HamburgerMenuContainerLanguage button {
     background: black;
-    width: 24px;
-    height: 20px;
+    width: 6.40vw;
+    height: 5.33vw;
     outline: none;
     border: 0;
   }
@@ -259,7 +259,10 @@
   }
   .HamburgerMenuContainerLanguage div {
     width: 1px;
-    height: 20px;
+    height: 5.33vw;
     background: #181818;
+  }
+  .langChange {
+    display: none;
   }
 }

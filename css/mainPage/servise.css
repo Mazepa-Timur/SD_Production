@@ -81,7 +81,7 @@
     padding: 0;
     width: 11.98vw;
 
-    font-size: 0.83vw;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
   }
@@ -206,11 +206,12 @@
     padding: 0;
     width: 27.47vw;
     height: 3.91vw;
+    white-space: nowrap;
 
     color: #cfcfcf;
 
     font-family: Montserrat;
-    font-size: 2.08vw;
+    font-size: 2.34vw;
     font-style: normal;
     font-weight: 400;
     list-style: url('../../img/Line4.svg');
@@ -226,7 +227,7 @@
     width: 29.04vw;
   }
   .servicesFragment .serviceButton p {
-    font-size: 2.08vw;
+    font-size: 2.34vw;
     font-style: normal;
     font-weight: 600;
   }
@@ -236,7 +237,7 @@
   .servicesFragment .serviceButton img {
     margin: 0;
     margin-top: -1.7vw;
-    margin-left: 14.99vw;
+    margin-left: 18vw;
     padding: 0;
     width: 1.82vw;
     height: 1.04vw;
@@ -252,7 +253,7 @@
   .servicesFragment .serviceButton:hover img {
     margin: 0;
     margin-top: -1.7vw;
-    margin-left: 17vw;
+    margin-left: 20vw;
     padding: 0;
     width: 1.82vw;
     height: 1.04vw;
@@ -325,7 +326,7 @@
     width: 74.09vw;
   }
   .serviseInfo {
-    padding-left: 2.60vw;
+    padding-left: 2.6vw;
     width: 71.48vw;
 
     display: flex;
@@ -356,7 +357,7 @@
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 6.40vw;
+    gap: 6.4vw;
   }
   .servicesFragment {
     margin: 0;
@@ -408,7 +409,7 @@
     color: #cfcfcf;
 
     font-family: Montserrat;
-    font-size: 4.80vw;
+    font-size: 4.8vw;
     font-style: normal;
     font-weight: 400;
     list-style: url('../../img/Line4.svg');
