@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1180px) {
   #services {
     margin: 2.81vw 0;
     padding: 0;
@@ -146,7 +146,7 @@
     -webkit-text-fill-color: transparent;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1179px) {
   #services {
     margin: 2.81vw 0;
     padding: 0;
@@ -336,7 +336,7 @@
     display: flex;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   #services {
     margin: 4.27vw 0;
     padding: 0;

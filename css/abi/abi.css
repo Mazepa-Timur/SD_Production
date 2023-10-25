@@ -245,7 +245,7 @@ h3 {
   height: 1.04vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1179px) {
   main > img {
     width: auto;
   }
@@ -449,7 +449,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   main > img {
     width: 100vw;
   }

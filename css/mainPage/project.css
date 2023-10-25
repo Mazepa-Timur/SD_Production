@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1180px) {
   .projects {
     margin-top: 6.61vw;
     margin-bottom: 14.38vw;
@@ -319,7 +319,7 @@
     background-size: cover;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1179px) {
   .projects {
     margin-bottom: 14.38vw;
 
@@ -640,7 +640,7 @@
     background-size: cover;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   .projects {
     margin-top: 10vw;
   }

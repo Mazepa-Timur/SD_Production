@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1180px) {
   .hero {
     width: 99.11vw;
     display: flex;
@@ -100,7 +100,7 @@
   }
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1179px) {
   .hero {
     width: 100vw;
     height: 83vw;
@@ -206,7 +206,7 @@
       linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   .hero {
     margin-top: 26.67vw;
     width: 100vw;

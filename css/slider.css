@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1180px) {
   .slider-name {
     margin-bottom: 7.29vw;
     height: min-content;
@@ -176,7 +176,7 @@
     opacity: 1;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1179px) {
   .slider-name {
     margin-bottom: 18.23vw;
     height: min-content;
@@ -364,7 +364,7 @@
     opacity: 1;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   #ourTeam {
     margin-top: 0;
     margin-bottom: 30vw;

@@ -37,7 +37,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 1000000px) {
+/* @media only screen and (max-width: 1000000px) { */
   .hero {
     display: flex;
     flex-direction: column;
@@ -580,10 +580,11 @@ main {
   #projects .projectButton {
     display: none;
   }
-}
+  
+/* } */
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1179px) {
   main img {
     width: 100vw;
   }
@@ -1115,7 +1116,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
   main img {
     /* display: none; */
     width: 100vw;

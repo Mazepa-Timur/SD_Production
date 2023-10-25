@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1180px) {
   header {
     margin-top: 2.08vw;
     padding: 0.52vw 6.25vw;
@@ -103,7 +103,8 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1179px) {
   header {
     margin-top: 0;
     padding: 10vw 5vw;
@@ -121,7 +122,7 @@
     background: transparent;
   }
   header .logo {
-    width: 20vw;
+    width: 13.13vw;
   }
   header .navigator {
     display: none;
@@ -203,7 +204,7 @@
     display: block;
   }
   .HamburgerMenu img {
-    width: 15vw;
+    width: 6.25vw;
   }
   header .hide .HamburgerMenuNav {
     top: 0;
@@ -244,7 +245,8 @@
     display: none;
   }
 }
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 767px) {
   .HamburgerMenuContainerLanguage {
     display: flex;
     gap: 3.2vw;
@@ -270,5 +272,11 @@
   }
   .langChange {
     display: none;
+  }
+  header .logo {
+    width: 22.40vw;
+  }
+  .HamburgerMenu img {
+    width: 12.80vw;
   }
 }
