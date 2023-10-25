@@ -211,7 +211,7 @@ h3 {
   background: #181818;
 }
 #nav a {
-  display: block;
+  display: flex;
   align-items: center;
   font-family: Montserrat;
   font-size: 0.83vw;
@@ -219,6 +219,7 @@ h3 {
   font-weight: 400;
   line-height: 1.35vw;
   color: #cfcfcf;
+  gap: 1.04vw;
 }
 
 #nav a:hover {
@@ -231,6 +232,11 @@ h3 {
   align-items: center;
   gap: 0.83vw;
 }
+
+.next {
+  flex-direction: row-reverse;
+}
+
 #nav div img {
   display: flex;
   align-items: center;
@@ -409,14 +415,15 @@ h3 {
     padding: 0 5.99vw;
   }
   #nav {
-    padding: 1.43vw 2.08vw;
+    padding: 2.34vw 2.08vw;
     width: 83.33vw;
+    border-radius: 5.21vw;
     justify-content: space-between;
     margin-bottom: 12.8vw;
   }
 
   #nav a {
-    display: block;
+    display: flex;
     align-items: center;
     font-family: Montserrat;
     font-size: 2.08vw;
@@ -434,6 +441,10 @@ h3 {
     display: block;
     width: 5.333vw;
     height: 5.333vw;
+  }
+  #nav div img {
+    width: 2.60vw;
+    height: 2.60vw;
   }
 }
 
@@ -607,14 +618,15 @@ h3 {
     padding: 0 4.267vw;
   }
   #nav {
-    padding: 2.667vw 4.267vw;
+    padding: 6.1vw 4.267vw;
     width: 91.467vw;
+    border-radius: 10.67vw;
     justify-content: space-between;
     margin-bottom: 12.8vw;
   }
 
   #nav a {
-    display: block;
+    display: flex;
     align-items: center;
     font-family: Montserrat;
     font-size: 4.267vw;
@@ -632,5 +644,9 @@ h3 {
     display: block;
     width: 5.333vw;
     height: 5.333vw;
+  }
+  #nav div img {
+width: 5.33vw;
+height: 5.33vw;
   }
 }

@@ -88,10 +88,14 @@
   .servicesFragment .serviceButton:hover {
     color: #7d3bd1;
   }
+
+  .servicesFragment .serviceButton p {
+    font-size: 0.83vw;
+  }
   .servicesFragment .serviceButton img {
     margin: 0;
     margin-top: -0.83vw;
-    margin-left: 5.99vw;
+    margin-left: 6.41vw;
     padding: 0;
     width: 0.78vw;
     height: 0.78vw;
