@@ -75,6 +75,11 @@
     font-style: normal;
     font-weight: 600;
   }
+  
+  .langChange ul li a {
+    margin-top: 0.52vw;
+  }
+
   .langHide .langImg {
     position: absolute;
     transform: rotate(180deg);
@@ -167,6 +172,7 @@
     font-style: normal;
     font-weight: 600;
   }
+
   .langHide .langImg {
     position: absolute;
     transform: rotate(180deg);
@@ -241,11 +247,11 @@
 @media only screen and (max-width: 375px) {
   .HamburgerMenuContainerLanguage {
     display: flex;
-    gap: 3.20vw;
+    gap: 3.2vw;
   }
   .HamburgerMenuContainerLanguage button {
     background: black;
-    width: 6.40vw;
+    width: 6.4vw;
     height: 5.33vw;
     outline: none;
     border: 0;

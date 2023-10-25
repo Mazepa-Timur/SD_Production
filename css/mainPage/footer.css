@@ -24,7 +24,7 @@
     color: #cfcfcf;
     text-align: center;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
@@ -245,8 +245,7 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 2.5vw;
-
-    font-size: 16px;
+    font-size: 0.83vw;
     list-style: none;
   }
   footer .navigator li {
