@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 ::-webkit-scrollbar {
   background: transparent;
 }
@@ -11,7 +11,7 @@
   color: #ffffff;
   list-style: none;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ body {
 }
 .borderText {
   font-weight: 800;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke: 1.5px #fff;
   letter-spacing: 2.5px;
@@ -40,13 +40,14 @@ body {
   height: 24px;
 }
 .buttonClose::after {
-  content: url('../img/email/ButtonClose.svg');
+  content: url("../img/email/ButtonClose.svg");
   display: block;
   width: 24px;
   height: 24px;
+  display: none;
 }
 .buttonClose:hover:after {
-  content: url('../img/email/ButtonCloseHover.svg');
+  content: url("../img/email/ButtonCloseHover.svg");
 }
 .emailForm {
   margin-top: 140px;
@@ -55,8 +56,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('../img/Group\ 1000001807.png');
+  background-image: url("../img/Group\ 1000001807.png");
 }
+
+header {
+  display: none;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -80,7 +86,7 @@ form {
   width: 545px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 24px;
 }
 input {
   padding: 16px 24px;
@@ -123,4 +129,17 @@ input {
   border-radius: 39px;
   background: linear-gradient(119deg, #bd00ff 21.38%, #3604c3 129.88%);
   border: none;
+}
+
+@media only screen and (max-width: 1179px) {
+  header {
+    display: flex;
+  }
+  .emailForm{
+    width: 768px;
+    height: 1024px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
 }
